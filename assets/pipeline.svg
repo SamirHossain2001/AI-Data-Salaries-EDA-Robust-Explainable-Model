@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1090" height="456" viewBox="0 0 1090 456" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6e7781"/></marker></defs>
+<rect x="1" y="1" width="1088" height="454" rx="16" fill="#ffffff" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="32" y="82.0" font-size="15" font-weight="700" letter-spacing="1.5" fill="#2a78d6">PREPARE</text>
+<rect x="150" y="32" width="260" height="88" rx="12" fill="#eaf2fc" stroke="#2a78d6" stroke-width="1.8"/>
+<circle cx="180" cy="76.0" r="15" fill="#2a78d6"/>
+<text x="180" y="81.5" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+<text x="210" y="70" font-size="16" font-weight="700" fill="#1f2328">Load data</text>
+<text x="210" y="94" font-size="13.5" fill="#57606a">71,913 salary records</text>
+<path d="M416,76.0 L468,76.0" fill="none" stroke="#6e7781" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="474" y="32" width="260" height="88" rx="12" fill="#eaf2fc" stroke="#2a78d6" stroke-width="1.8"/>
+<circle cx="504" cy="76.0" r="15" fill="#2a78d6"/>
+<text x="504" y="81.5" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+<text x="534" y="70" font-size="16" font-weight="700" fill="#1f2328">Check &amp; clean</text>
+<text x="534" y="94" font-size="13.5" fill="#57606a">drop 2 leaking columns</text>
+<path d="M740,76.0 L792,76.0" fill="none" stroke="#6e7781" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="798" y="32" width="260" height="88" rx="12" fill="#eaf2fc" stroke="#2a78d6" stroke-width="1.8"/>
+<circle cx="828" cy="76.0" r="15" fill="#2a78d6"/>
+<text x="828" y="81.5" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+<text x="858" y="70" font-size="16" font-weight="700" fill="#1f2328">Explore</text>
+<text x="858" y="94" font-size="13.5" fill="#57606a">find what drives pay</text>
+<path d="M928.0,124 L928.0,152.0 L280.0,152.0 L280.0,178" fill="none" stroke="#6e7781" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<text x="32" y="234.0" font-size="15" font-weight="700" letter-spacing="1.5" fill="#1baf7a">MODEL</text>
+<rect x="150" y="184" width="260" height="88" rx="12" fill="#e3f6ee" stroke="#1baf7a" stroke-width="1.8"/>
+<circle cx="180" cy="228.0" r="15" fill="#1baf7a"/>
+<text x="180" y="233.5" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+<text x="210" y="222" font-size="16" font-weight="700" fill="#1f2328">Build features</text>
+<text x="210" y="246" font-size="13.5" fill="#57606a">title words, group means</text>
+<path d="M416,228.0 L468,228.0" fill="none" stroke="#6e7781" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="474" y="184" width="260" height="88" rx="12" fill="#e3f6ee" stroke="#1baf7a" stroke-width="1.8"/>
+<circle cx="504" cy="228.0" r="15" fill="#1baf7a"/>
+<text x="504" y="233.5" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">5</text>
+<text x="534" y="222" font-size="16" font-weight="700" fill="#1f2328">Train two models</text>
+<text x="534" y="246" font-size="13.5" fill="#57606a">LightGBM + CatBoost</text>
+<path d="M740,228.0 L792,228.0" fill="none" stroke="#6e7781" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="798" y="184" width="260" height="88" rx="12" fill="#e3f6ee" stroke="#1baf7a" stroke-width="1.8"/>
+<circle cx="828" cy="228.0" r="15" fill="#1baf7a"/>
+<text x="828" y="233.5" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">6</text>
+<text x="858" y="222" font-size="16" font-weight="700" fill="#1f2328">Blend</text>
+<text x="858" y="246" font-size="13.5" fill="#57606a">weights from 5-fold CV</text>
+<path d="M928.0,276 L928.0,304.0 L280.0,304.0 L280.0,330" fill="none" stroke="#6e7781" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<text x="32" y="386.0" font-size="15" font-weight="700" letter-spacing="1.5" fill="#eb6834">EVALUATE</text>
+<rect x="150" y="336" width="260" height="88" rx="12" fill="#fdefe8" stroke="#eb6834" stroke-width="1.8"/>
+<circle cx="180" cy="380.0" r="15" fill="#eb6834"/>
+<text x="180" y="385.5" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">7</text>
+<text x="210" y="374" font-size="16" font-weight="700" fill="#1f2328">Test once</text>
+<text x="210" y="398" font-size="13.5" fill="#57606a">locked 20% of rows</text>
+<path d="M416,380.0 L468,380.0" fill="none" stroke="#6e7781" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="474" y="336" width="260" height="88" rx="12" fill="#fdefe8" stroke="#eb6834" stroke-width="1.8"/>
+<circle cx="504" cy="380.0" r="15" fill="#eb6834"/>
+<text x="504" y="385.5" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">8</text>
+<text x="534" y="374" font-size="16" font-weight="700" fill="#1f2328">Stress tests</text>
+<text x="534" y="398" font-size="13.5" fill="#57606a">robustness and bias</text>
+<path d="M740,380.0 L792,380.0" fill="none" stroke="#6e7781" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="798" y="336" width="260" height="88" rx="12" fill="#fdefe8" stroke="#eb6834" stroke-width="1.8"/>
+<circle cx="828" cy="380.0" r="15" fill="#eb6834"/>
+<text x="828" y="385.5" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">9</text>
+<text x="858" y="374" font-size="16" font-weight="700" fill="#1f2328">Explain</text>
+<text x="858" y="398" font-size="13.5" fill="#57606a">SHAP and LIME</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1224" height="310" viewBox="0 0 1224 310" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6e7781"/></marker></defs>
+<rect x="1" y="1" width="1222" height="308" rx="16" fill="#ffffff" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="32" y="32" width="248" height="88" rx="12" fill="#f6f8fa" stroke="#57606a" stroke-width="1.8"/>
+<text x="156.0" y="70" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">All rows</text>
+<text x="156.0" y="94" font-size="13.5" fill="#57606a" text-anchor="middle">71,913 salary records</text>
+<rect x="336" y="32" width="248" height="88" rx="12" fill="#eaf2fc" stroke="#2a78d6" stroke-width="1.8"/>
+<text x="460.0" y="70" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Training rows · 80%</text>
+<text x="460.0" y="94" font-size="13.5" fill="#57606a" text-anchor="middle">57,530 rows</text>
+<rect x="640" y="32" width="248" height="88" rx="12" fill="#eaf2fc" stroke="#2a78d6" stroke-width="1.8"/>
+<text x="764.0" y="70" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">5-fold cross-validation</text>
+<text x="764.0" y="94" font-size="13.5" fill="#57606a" text-anchor="middle">picks features &amp; settings</text>
+<rect x="944" y="32" width="248" height="88" rx="12" fill="#eaf2fc" stroke="#2a78d6" stroke-width="1.8"/>
+<text x="1068.0" y="70" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Final model</text>
+<text x="1068.0" y="94" font-size="13.5" fill="#57606a" text-anchor="middle">refit on all training rows</text>
+<rect x="944" y="190" width="248" height="88" rx="12" fill="#fdefe8" stroke="#eb6834" stroke-width="1.8"/>
+<text x="1068.0" y="228" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Test rows · 20%</text>
+<text x="1068.0" y="252" font-size="13.5" fill="#57606a" text-anchor="middle">14,383 rows, scored once</text>
+<path d="M286,76.0 L330,76.0" fill="none" stroke="#6e7781" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M590,76.0 L634,76.0" fill="none" stroke="#6e7781" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M894,76.0 L938,76.0" fill="none" stroke="#6e7781" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M1068.0,124 L1068.0,184" fill="none" stroke="#6e7781" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M156.0,124 L156.0,234.0 L938,234.0" fill="none" stroke="#6e7781" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<text x="612.0" y="224.0" font-size="13.5" fill="#57606a" text-anchor="middle">held out and locked until the end</text>
+</svg>
